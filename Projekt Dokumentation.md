@@ -53,10 +53,21 @@ Gruppe Grapefruit Angelov, Koelewijn, Jeanneret Winsky, Oesch
 
 ## 2 Planen
 
-| AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
-| ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |       |           |              |               |
-| ...  |       |           |              |               |
+## 2 Planen
+
+| AP-№                            | Frist | Zuständig        | Beschreibung                                                | geplante Zeit   |
+| ------------------------------- | ----- | ---------------- | ----------------------------------------------------------- | --------------- |
+| 2.A                             |       | Jeanneret Winsky | Darkmode mit Button (verfolgend)                            | 4 Arbeitspakete |
+| ... |       | Oesch            | über uns seite mit buttons                                  | 4 Arbeitspakete |
+|                                 |       | Koelewijn        | Startseite                                                  | 4 Arbeitspakete |
+|                                 |       | Angelov          | verschönerung mit animationen                               | 4 Arbeitspakete |
+|                                 |       | Koelewijn        | Seite Kategorie 1 (5 Häufigsten C# Probleme)                | 4 Arbeitspakete |
+|                                 |       | Jeanneret Winsky | Seite Kategorie 2 (5 Häufigsten Winforms Probleme)          | 4 Arbeitspakete |
+|                                 |       | Angelov          | Seite Kategorie 3 (5 Häufigsten Html, CSS Probleme)         | 4 Arbeitspakete |
+|                                 |       | Oesch            | Seite Kategorie 4 (5 Häufigsten Discord Bot in C# Probleme) | 4 Arbeitspakete |
+
+
+
 
 Total: 
 
