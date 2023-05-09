@@ -24,16 +24,10 @@ Gruppe Grapefruit Angelov, Koelewijn, Jeanneret Winsky, Oesch
 | 1    |      muss       | Funktional | Als User möchte ich möchte ich auf die Seite kommen mit eimen Link, damit die Seite funktioniert.|
 | 2    |      kann       | Qualität   | Als User möchte ich die Webseite auf Dark Mode stellen, damit ich nicht verblende. |
 | 3    |      kann       | Qualität   | Als User möchte ich ein cooles Design haben für die Website, damit es cool aussieht. |
-| ...  |      kann       | Qualität   | Als User möchte ich ein Code Snipped öffnen können, damit ich den versteckten Code sehen kann. |
-| ...  |                 |      |                                    |
-| ...  |                 |      |                                    |
-| ...  |                 |      |                                    |
-| ...  |                 |      |                                    |
-| ...  |                 |      |                                    |
-| ...  |                 |      |                                    |
-| ...  |                 |      |                                    |
-| ...  |                 |      |                                    |
-| ...  |                 |      |                                    |
+| 4    |      kann       | Qualität   | Als User möchte ich ein Code Snipped öffnen können, damit ich den versteckten Code sehen kann. |
+| 5    |      muss       | Funktional | Als User möchte ich  Code von der Website kopieren, damit ich sie benutzen kann. |
+| 6    |      muss       | Funktional | Als User möchte ich ein Thema in der Navigationsbar auswählen, damit ich Sachen finden kann. |
+
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
 
