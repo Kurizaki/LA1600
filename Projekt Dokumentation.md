@@ -21,7 +21,18 @@ Gruppe Grapefruit Angelov, Koelewijn, Jeanneret Winsky, Oesch
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    |                 |      | Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️ |
+| 1    |      muss       | Funktional | Als User möchte ich möchte ich auf die Seite kommen mit eimen Link, damit die Seite funktioniert.|
+| 2    |      kann       | Qualität   | Als User möchte ich die Webseite auf Dark Mode stellen, damit ich nicht verblende. |
+| 3    |          | Qualität   | Als User möchte ich ein cooles Design haben für die Website, damit es cool aussieht. |
+| ...  |                 |      |                                    |
+| ...  |                 |      |                                    |
+| ...  |                 |      |                                    |
+| ...  |                 |      |                                    |
+| ...  |                 |      |                                    |
+| ...  |                 |      |                                    |
+| ...  |                 |      |                                    |
+| ...  |                 |      |                                    |
+| ...  |                 |      |                                    |
 | ...  |                 |      |                                    |
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
@@ -37,7 +48,7 @@ Gruppe Grapefruit Angelov, Koelewijn, Jeanneret Winsky, Oesch
 
 ### 1.4 Diagramme
 
-✍️Fügen Sie hier ein Use Case-Diagramm mit mindestens 3 Anwendungsfällen ein; und eine Skizze davon, wie Ihre Netzseite aussehen sollte.
+
 
 ## 2 Planen
 
