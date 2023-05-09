@@ -23,8 +23,8 @@ Gruppe Grapefruit Angelov, Koelewijn, Jeanneret Winsky, Oesch
 | ---- | --------------- | ---- | ---------------------------------- |
 | 1    |      muss       | Funktional | Als User möchte ich möchte ich auf die Seite kommen mit eimen Link, damit die Seite funktioniert.|
 | 2    |      kann       | Qualität   | Als User möchte ich die Webseite auf Dark Mode stellen, damit ich nicht verblende. |
-| 3    |          | Qualität   | Als User möchte ich ein cooles Design haben für die Website, damit es cool aussieht. |
-| ...  |                 |      |                                    |
+| 3    |      kann       | Qualität   | Als User möchte ich ein cooles Design haben für die Website, damit es cool aussieht. |
+| ...  |      kann       | Qualität   | Als User möchte ich ein Code Snipped öffnen können, damit ich den versteckten Code sehen kann. |
 | ...  |                 |      |                                    |
 | ...  |                 |      |                                    |
 | ...  |                 |      |                                    |
