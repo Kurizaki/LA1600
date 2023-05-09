@@ -50,6 +50,8 @@ Gruppe Grapefruit Angelov, Koelewijn, Jeanneret Winsky, Oesch
 
 ![image](https://user-images.githubusercontent.com/110892742/237027128-0436ffc0-cce7-4b0d-8912-13b972795c90.png)
 
+![Web 1920 – 1](https://user-images.githubusercontent.com/110892283/237028839-798cb544-6e48-4dd8-80bb-85161727124d.png)
+
 
 ## 2 Planen
 
