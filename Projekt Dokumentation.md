@@ -5,13 +5,14 @@ Gruppe Grapefruit Angelov, Koelewijn, Jeanneret Winsky, Oesch
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|       | 0.0.1   | Heute haben wir Userstorys, Testfälle und Diagramme erstellt.  |
+|       | 0.0.1   | Heute haben wir Userstorys, Testfälle und Diagramme erstellt.|
 |       | ...     |                                                              |
 |       | 1.0.0   |                                                              |
 
 ## 1 Informieren
 
 ### 1.1 Ihr Projekt
+Wir programmieren eine Website, die neuen Lernenden Unterstützung bietet.
 
 Wir arbeiten daran eine Website zu coden, um Menschen, die das Programmieren erlernen möchten, helfen zu können. Unser Ziel ist es, eine benutzerfreundliche Website zu entwickeln, die Lernenden dabei unterstützt, ihre Programmierkenntnisse zu erweitern und ihre Probleme effektiv zu lösen.
 
