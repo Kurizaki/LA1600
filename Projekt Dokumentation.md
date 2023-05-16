@@ -61,15 +61,15 @@ Wir arbeiten daran eine Website zu coden, um Menschen, die das Programmieren erl
 
 | AP-№                            | Frist | Zuständig        | Beschreibung                                                | geplante Zeit   |
 | ------------------------------- | ----- | ---------------- | ----------------------------------------------------------- | --------------- |
-| 2.A                             |       | Jeanneret Winsky | Darkmode mit Button (verfolgend)                            | 4 Arbeitspakete |
-|                                 |       | Koelewijn        | Startseite                                                  | 4 Arbeitspakete |
-|                                 |       | Angelov          | verschönerung mit animationen                               | 4 Arbeitspakete |
-|                                 |       | Oesch      | Seite Kategorie 1                 | 4 Arbeitspakete |
-|                                 |       | Jeanneret Winsky | Seite Kategorie 2          | 4 Arbeitspakete |
-|                                 |       | Angelov          | Seite Kategorie 3         | 4 Arbeitspakete |
-|                                 |       | Oesch             | Seite Kategorie 4  | 4 Arbeitspakete |
-|                                 |       | Koelewijn      | Seite Kategorie 5         | 4 Arbeitspakete |
-|                                 |       | Koelewijn             | Seite Kategorie 6  | 4 Arbeitspakete |
+| 1.A                             |       | Jeanneret Winsky | Darkmode mit Button (verfolgend)                            | 4 Arbeitspakete |
+| 2.A                             |       | Koelewijn        | Startseite                                                  | 4 Arbeitspakete |
+| 3.A                             |       | Angelov          | verschönerung mit animationen                               | 4 Arbeitspakete |
+| 4.A                             |       | Oesch      | Seite Kategorie 1                 | 4 Arbeitspakete |
+| 5.A                             |       | Jeanneret Winsky | Seite Kategorie 2          | 4 Arbeitspakete |
+| 6.A                             |       | Angelov          | Seite Kategorie 3         | 4 Arbeitspakete |
+| 7.A                             |       | Oesch             | Seite Kategorie 4  | 4 Arbeitspakete |
+| 8.A                             |       | Koelewijn      | Seite Kategorie 5         | 4 Arbeitspakete |
+| 9.A                             |       | Koelewijn             | Seite Kategorie 6  | 4 Arbeitspakete |
 
 
 
@@ -88,8 +88,16 @@ Total:
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  |       |           |               |                   |
-| ...  |       |           |               |                   |
+| 1.A  |       | Jeanneret Winsky | 4 Arbeitspakete              |                   |
+| 2.A  |       | Koelewijn        | 4 Arbeitspakete              |                   |
+| 3.A  |       | Angelov          | 4 Arbeitspakete              |                   |
+| 4.A  |       | Oesch            | 4 Arbeitspakete              |                   |
+| 5.A  |       | Jeanneret Winsky | 4 Arbeitspakete              |                   |
+| 6.A  |       | Angelov          | 4 Arbeitspakete              |                   |
+| 7.A  |       | Oesch            | 4 Arbeitspakete              |                   |
+| 8.A  |       | Koelewijn        | 4 Arbeitspakete              |                   |
+| 9.A  |       | Koelewijn        | 4 Arbeitspakete              |                   |
+
 
 ✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
 
