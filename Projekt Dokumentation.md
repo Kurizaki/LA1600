@@ -26,7 +26,10 @@ Wir arbeiten daran eine Website zu coden, um Menschen, die das Programmieren erl
 | 4    |      kann       | Qualität   | Als User möchte ich ein Code Snipped öffnen können, damit ich den versteckten Code sehen kann. |
 | 5    |      muss       | Funktional | Als User möchte ich  Code von der Website kopieren, damit ich sie benutzen kann. |
 | 6    |      muss       | Funktional | Als User möchte ich ein Thema in der Navigationsbar auswählen, damit ich Sachen finden kann. |
-
+| 7    |      muss       | Funktional | Als User möchte ich auf der Website eine Auswahl verschiedener Programmiersprachen sehen. (z.b. C#, WinForms und Robocode) |
+| 8    |    muss     |Qualität   |Als User möchte ich auf der Website Ressourcen und Tipps für die Fehlerbehebung und das Debugging in C#, WinForms oder Robocode finden  |
+|     |         |  |  |
+|     |         |  |  |
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
 
@@ -40,6 +43,8 @@ Wir arbeiten daran eine Website zu coden, um Menschen, die das Programmieren erl
 | 4.1  |     Thema ist ausgewählt         |  Code snipped button gedrückt       |    Code snipped öffnet sich               |
 | 5.1  |    Code snipped geöffnet          |   Copy Code Knopf gedrückt      |    Code ist kopiert               |
 | 6.1  |  in der Navigationsbar           |   Ein Thema auswählen     |     Thema wird geöffnet              |
+| 7.1  | Auswahl von Programmiersprachen| Eine Sprache Auswählen | Informationen über diese Sprache  |
+| 8.1  |   Auf der Webseite      | Thema Auswählen | Informationen über dieses Thema |
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
