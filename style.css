@@ -165,13 +165,23 @@ header {
     overflow-y: auto;
 }
 
-/* Startseite */
+/* Start-page */
 
 .introduction-code {
     margin: 30px;
 }
 
 .introduction {
+    background-color: var(--background-color);
+    margin: 0 300px;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 0%;
+}
+
+/* about-us-page */
+
+.about-us {
     background-color: var(--background-color);
     margin: 0 300px;
     font-size: 18px;
