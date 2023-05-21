@@ -293,7 +293,15 @@ footer {
         font-size: 14px;
     }
 
+    /* Starting-page */
+
     .introduction {
+        font-size: 16px;
+    }
+
+    /* about-us-page */
+
+    .about-us {
         font-size: 16px;
     }
 
