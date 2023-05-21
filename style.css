@@ -343,8 +343,16 @@ footer {
         padding: 7px 15px;
         font-size: 15px;
     }
-
+    
+    /* Starting-page */
+    
     .introduction {
+        font-size: 17px;
+    }
+    
+    /* about-us-page */
+    
+    .about-us {
         font-size: 17px;
     }
 
