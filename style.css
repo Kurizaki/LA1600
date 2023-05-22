@@ -256,7 +256,8 @@ footer {
 
     .logo-container,
     .categories,
-    .introduction {
+    .introduction,
+    .about-us {
         margin: 0 20px;
     }
 
@@ -274,6 +275,7 @@ footer {
         right: -300px;
         width: 300px;
     }
+
     #fixed-button-checkbox:checked~.fixed-button {
         right: 300px;
     }
@@ -282,7 +284,6 @@ footer {
     html {
         overflow-x: hidden;
     }
-
 
     .title {
         font-size: 2em;
@@ -316,7 +317,8 @@ footer {
 
     .logo-container,
     .categories,
-    .introduction {
+    .introduction,
+    .about-us {
         margin: 0 50px;
     }
 
@@ -338,20 +340,19 @@ footer {
         overflow-x: hidden;
     }
 
-
     .category-link {
         padding: 7px 15px;
         font-size: 15px;
     }
-    
+
     /* Starting-page */
-    
+
     .introduction {
         font-size: 17px;
     }
-    
+
     /* about-us-page */
-    
+
     .about-us {
         font-size: 17px;
     }
