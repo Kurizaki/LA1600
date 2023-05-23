@@ -1,52 +1,45 @@
 # Projekt-Dokumentation
 
-
 Gruppe Grapefruit Angelov, Koelewijn, Jeanneret Winsky, Oesch
 
-| Datum | Version | Zusammenfassung                                              |
-| ----- | ------- | ------------------------------------------------------------ |
-|       | 0.0.1   | Heute haben wir Userstorys, Testfälle und Diagramme erstellt.|
-|       | ...     |                                                              |
-|       | 1.0.0   |                                                              |
+| Datum                        | Version | Zusammenfassung                                               |
+| ---------------------------- | ------- | ------------------------------------------------------------- |
+| 09.05.23                     | 0.0.1   | Heute haben wir Userstorys, Testfälle und Diagramme erstellt. |
+| 16.05.23                     | 0.02    | Heute haben wir Planen, Entscheiden und Realisieren erstellt. |
+|  | 1.0.0   |                                                               |
 
 ## 1 Informieren
 
 ### 1.1 Ihr Projekt
-Wir programmieren eine Website, die neuen Lernenden Unterstützung bietet.
 
-Wir arbeiten daran eine Website zu coden, um Menschen, die das Programmieren erlernen möchten, helfen zu können. Unser Ziel ist es, eine benutzerfreundliche Website zu entwickeln, die Lernenden dabei unterstützt, ihre Programmierkenntnisse zu erweitern und ihre Probleme effektiv zu lösen.
+Wir arbeiten daran, eine Website zu programmieren, die neuen Lernenden Unterstützung bietet. Unser Ziel ist es, eine benutzerfreundliche Website zu entwickeln, die Menschen, die das Programmieren erlernen möchten, helfen kann. Wir möchten Lernenden dabei helfen, ihre Programmierkenntnisse zu erweitern und Probleme effektiv zu lösen.
 
 ### 1.2 User Stories
 
-| US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
-| ---- | --------------- | ---- | ---------------------------------- |
-| 1    |      muss       | Funktional | Als User möchte ich möchte ich auf die Seite kommen mit eimen Link, damit die Seite funktioniert.|
-| 2    |      kann       | Qualität   | Als User möchte ich die Webseite auf Dark Mode stellen, damit ich nicht verblende. |
-| 3    |      kann       | Qualität   | Als User möchte ich ein cooles Design haben für die Website, damit es cool aussieht. |
-| 4    |      kann       | Qualität   | Als User möchte ich ein Code Snipped öffnen können, damit ich den versteckten Code sehen kann. |
-| 5    |      muss       | Funktional | Als User möchte ich  Code von der Website kopieren, damit ich sie benutzen kann. |
-| 6    |      muss       | Funktional | Als User möchte ich ein Thema in der Navigationsbar auswählen, damit ich Sachen finden kann. |
-| 7    |      muss       | Funktional | Als User möchte ich auf der Website eine Auswahl verschiedener Programmiersprachen sehen. (z.b. C#, WinForms und Robocode) |
-| 8    |    muss     |Qualität   |Als User möchte ich auf der Website Ressourcen und Tipps für die Fehlerbehebung und das Debugging in C#, WinForms oder Robocode finden  |
-|     |         |  |  |
-|     |         |  |  |
-
-✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
+| US-№ | Verbindlichkeit | Typ        | Beschreibung                                                                                                                                                                                        |
+| ---- | --------------- | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1    | Muss            | Funktional | Als Benutzer möchte ich einen funktionierenden Link haben, um auf die Webseite zugreifen zu können.                                                                                                 |
+| 2    | Muss            | Funktional | Als Benutzer möchte ich die verschiedenen Kategorien von häufigen Programmierfehlern auf der Webseite sehen, um gezielt nach Informationen suchen zu können.                                        |
+| 3    | Muss            | Funktional | Als Benutzer möchte ich detaillierte Informationen zu jedem Programmierfehler in einer Kategorie erhalten, um besser verstehen zu können, warum der Fehler auftritt und wie ich ihn vermeiden kann. |
+| 4    | Muss            | Funktional | Als Benutzer möchte ich praktische Tipps und Ratschläge erhalten, wie ich bestimmte Programmierfehler in meiner Projektdokumentation oder Lernbericht vermeiden kann.                               |
+| 5    | Muss            | Funktional | Als Benutzer möchte ich eine benutzerfreundliche Navigation haben, um mühelos zwischen den verschiedenen Kategorien von Programmierfehlern zu wechseln.                                             |
+| 6    | Kann            | Qualität   | Als Benutzer möchte ich die Möglichkeit haben, den Dark Mode auf der Webseite zu aktivieren, um den Benutzer optische Einstellungen zu ermöglichen.                                                 |
+| 7    | Kann            | Qualität   | Als Benutzer möchte ich eine leicht verständliche und ansprechende Benutzeroberfläche erleben, die es mir ermöglicht, schnell auf die gesuchten Informationen zuzugreifen.                          |
+| 8    | Kann            | Qualität   | Als Benutzer möchte ich die Möglichkeit haben, Code-Snippets zu öffnen, um die Erklärungen besser zu verstehen.                                                                                     |
 
 ### 1.3 Testfälle
 
-| TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
-| ---- | ------------ | ------- | ----------------- |
-| 1.1  |    Broswser ist geöffnet       |   Link eingegeben      |      Webseite erscheint            |
-| 2.1  |  Auf der Webseite            |  Dark mode Knopf gedrückt      |    Webseite ist auf Darkmode geschaltet.               |
-| 3.1  | Webseite ist offen             |    -     |     Webseite ist cool designed              |
-| 4.1  |     Thema ist ausgewählt         |  Code snipped button gedrückt       |    Code snipped öffnet sich               |
-| 5.1  |    Code snipped geöffnet          |   Copy Code Knopf gedrückt      |    Code ist kopiert               |
-| 6.1  |  in der Navigationsbar           |   Ein Thema auswählen     |     Thema wird geöffnet              |
-| 7.1  | Auswahl von Programmiersprachen| Eine Sprache Auswählen | Informationen über diese Sprache  |
-| 8.1  |   Auf der Webseite      | Thema Auswählen | Informationen über dieses Thema |
-
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
+| TC-№ | Ausgangslage                                         | Eingabe                                         | Erwartete Ausgabe                                                                                    |
+| ---- | ---------------------------------------------------- | ----------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| 1.1  | Der Browser ist geöffnet.                            | Der Link wird eingegeben.                       | Die Webseite wird angezeigt.                                                                         |
+| 2.1  | Die Webseite ist geladen                             | -                                               | Verschiedene Kategorien werden angezeigt.                                                            |
+| 2.2  | Die Startseite ist geladen                           | Kategorie "Häufige C# Probleme" wird angeklickt | Man wird weitergeleitet auf die Seite mit "Häufige C# Probleme".                                      |
+| 3.1  | Die Seite "Häufige C# Probleme" ist geladen          | -                                               | Detaillierte Informationen zu den Programmierfehlern aus dieser Kategorie werden angezeigt.          |
+| 4.1  | Die Seite "Häufige Lernbericht Probleme" ist geladen | -                                               | Tipps und Ratschläge zur Fehlervermeidung sind gut strukturiert und leicht verständlich dargestellt. |
+| 5.1  | Die Seite "Häufige Lernbericht Probleme" ist geladen | Kategorie "Häufige C# Probleme" wird angeklickt | Man wird weitergeleitet auf die Seite mit "Häufige C# Probleme".                                      |
+| 6.1  | Unterseite oder Startseite ist geladen               | Im Footer wird Darkmode angeklickt              | Die Farben der Seite werden auf Dunkel eingestellt.                                                  |
+| 7.1  | Startseite ist geladen                               | -                                               | Es gibt eine Benutzerfreundlichkeit und visuelle Attraktivität.                                      |
+| 8.1  | Die Seite "Häufige C# Probleme" ist geladen          | Der Button "Code" wird angeklickt               | Eine Fläche wird ausgefahren mit einem Beispielscode.                                                 |
 
 ### 1.4 Diagramme
 
@@ -54,52 +47,44 @@ Wir arbeiten daran eine Website zu coden, um Menschen, die das Programmieren erl
 
 ![Web 1920 – 1](https://user-images.githubusercontent.com/110892283/237028839-798cb544-6e48-4dd8-80bb-85161727124d.png)
 
-
 ## 2 Planen
 
-## 2 Planen
-
-| AP-№                            | Frist | Zuständig        | Beschreibung                                                | geplante Zeit   |
-| ------------------------------- | ----- | ---------------- | ----------------------------------------------------------- | --------------- |
-| 1.A                             |       | Jeanneret Winsky | Darkmode mit Button (verfolgend)                            | 4 Arbeitspakete |
-| 2.A                             |       | Koelewijn        | Startseite                                                  | 4 Arbeitspakete |
-| 3.A                             |       | Angelov          | verschönerung mit animationen                               | 4 Arbeitspakete |
-| 4.A                             |       | Oesch      | Seite Kategorie 1                 | 4 Arbeitspakete |
-| 5.A                             |       | Jeanneret Winsky | Seite Kategorie 2          | 4 Arbeitspakete |
-| 6.A                             |       | Angelov          | Seite Kategorie 3         | 4 Arbeitspakete |
-| 7.A                             |       | Oesch             | Seite Kategorie 4  | 4 Arbeitspakete |
-| 8.A                             |       | Koelewijn      | Seite Kategorie 5         | 4 Arbeitspakete |
-| 9.A                             |       | Koelewijn             | Seite Kategorie 6  | 4 Arbeitspakete |
-
+| AP-№ | Frist | Zuständig                 | Beschreibung                                                    | Geplante Zeit    |
+| ---- | ----- | ------------------------- | --------------------------------------------------------------- | ---------------- |
+| 1.A  |       | Koelewijn                 | GitHub Pages Webseite erstellen                                 | ⅓ Arbeitspakete  |
+| 2.A  |       | Koelewijn                 | Erstellung der Startseite                                       | 4 Arbeitspakete  |
+| 2.A  |       | Erstellung der Startseite | Implementierung des Dark Mode                                   | 4 Arbeitspakete  |
+| 3.A  |       | Angelov                   | Verschönerung der Webseite mit Animationen                      | 4 Arbeitspakete  |
+| 4.A  |       | Oesch                     | Erstellung der Kategorie Häufige C# Probleme                    | 4 Arbeitspakete  |
+| 5.A  |       | Jeanneret Winsky          | Erstellung der Kategorie Häufige WinForms Probleme              | 4 Arbeitspakete  |
+| 6.A  |       | Angelov                   | Erstellung der Kategorie Häufige Robocode Probleme              | 4 Arbeitspakete  |
+| 7.A  |       | Oesch                     | Erstellung der Kategorie Häufige Projekt Dokumentation Probleme | 4 Arbeitspakete  |
+| 8.A  |       | Koelewijn                 | Erstellung der Kategorie Häufige Lernbericht Probleme           | 1⅔ Arbeitspakete |
+| 9.A  |       | Koelewijn                 | Erstellung der Kategorie Über Uns                               | 2 Arbeitspakete  |
 
 
 
-Total: 
-
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, auf die sich das Arbeitspaket bezieht, und `m` von `A` an nach oben buchstabiert. Beispiel: Das dritte Arbeitspaket, das die zweite User Story betrifft, hat also die Nummer `2.C`.
-
-✍️ Ein Arbeitspaket sollte etwa 45' für eine Person in Anspruch nehmen. Die totale Anzahl Arbeitspakete sollte etwa Folgendem entsprechen: `Anzahl R-Sitzungen` ╳ `Anzahl Gruppenmitglieder` ╳ `4`. Wenn Sie also zu dritt an einem Projekt arbeiten, für welches zwei R-Sitzungen geplant sind, sollten Sie auf `2` ╳ `3` ╳`4` = `24` Arbeitspakete kommen. Sollten Sie merken, dass Sie hier nicht genügend Arbeitspakte haben, denken Sie sich weitere "Kann"-User Stories für Kapitel 1.2 aus.
+Total: 32 Arbeitspakete
 
 ## 3 Entscheiden
 
-✍️ Dokumentieren Sie hier Ihre Entscheidungen und Annahmen, die Sie im Bezug auf Ihre User Stories und die Implementierung getroffen haben.
+Zuerst planten wir die Erstellung eines Marktplatzes, auf dem Programmierhilfe verkauft werden kann. Aufgrund der Einschränkung, nur CSS verwenden zu dürfen, war es uns jedoch nicht möglich, Benutzerinteraktionen einzubauen. Daher haben wir uns entschieden, stattdessen eine Webseite zu entwickeln, die häufige Programmierfehler behandelt, um Lernenden Unterstützung zu bieten.
+
+Einige Funktionen, die wir implementieren wollten, wie zum Beispiel ein Copy-Button für Code-Snippets oder eine ausziehbare Funktion mit der Maus, konnten aufgrund dieser Einschränkungen leider nicht umgesetzt werden. Daher mussten wir einige der gewünschten Elemente überarbeiten.
 
 ## 4 Realisieren
 
-| AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
-| ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  |       | Jeanneret Winsky | 4 Arbeitspakete              |                   |
-| 2.A  |       | Koelewijn        | 4 Arbeitspakete              |                   |
-| 3.A  |       | Angelov          | 4 Arbeitspakete              |                   |
-| 4.A  |       | Oesch            | 4 Arbeitspakete              |                   |
-| 5.A  |       | Jeanneret Winsky | 4 Arbeitspakete              |                   |
-| 6.A  |       | Angelov          | 4 Arbeitspakete              |                   |
-| 7.A  |       | Oesch            | 4 Arbeitspakete              |                   |
-| 8.A  |       | Koelewijn        | 4 Arbeitspakete              |                   |
-| 9.A  |       | Koelewijn        | 4 Arbeitspakete              |                   |
-
-
-✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
+| AP-№ | Datum | Zuständig        | geplante Zeit   | tatsächliche Zeit |
+| ---- | ----- | ---------------- | --------------- | ----------------- |
+| 1.A  |       | Jeanneret Winsky | 4 Arbeitspakete |                   |
+| 2.A  |       | Koelewijn        | 4 Arbeitspakete | 5 Arbeitspakete   |
+| 3.A  |       | Angelov          | 4 Arbeitspakete |                   |
+| 4.A  |       | Oesch            | 4 Arbeitspakete |                   |
+| 5.A  |       | Jeanneret Winsky | 4 Arbeitspakete |                   |
+| 6.A  |       | Angelov          | 4 Arbeitspakete |                   |
+| 7.A  |       | Oesch            | 4 Arbeitspakete |                   |
+| 8.A  |       | Koelewijn        | 2 Arbeitspakete | 1 Arbeitspaket    |
+| 9.A  |       | Koelewijn        | 2 Arbeitspakete | 2 Arbeitspakete   |
 
 ## 5 Kontrollieren
 
@@ -108,9 +93,6 @@ Total:
 | 1.1  |       |          |        |
 | ...  |       |          |        |
 
-✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
-
 ## 6 Auswerten
 
 ✍️ Fügen Sie hier eine Verknüpfung zu Ihrem Lern-Bericht ein.
-
