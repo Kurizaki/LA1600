@@ -12,7 +12,7 @@ Gruppe Grapefruit Angelov, Koelewijn, Jeanneret Winsky, Oesch
 
 ### 1.1 Ihr Projekt
 
-Wir arbeiten daran, eine Website zu programmieren, die neuen Lernenden Unterstützung bietet. Unser Ziel ist es, eine benutzerfreundliche Website zu entwickeln, die Menschen, die das Programmieren erlernen möchten, helfen kann. Wir möchten Lernenden dabei helfen, ihre Programmierkenntnisse zu erweitern und Probleme effektiv zu lösen.
+Unser Ziel ist es, eine benutzerfreundliche Website zu entwickeln, die Menschen, die das Programmieren erlernen möchten, helfen kann. Wir möchten Lernenden dabei helfen, ihre Programmierkenntnisse zu erweitern und Probleme effektiv zu lösen.
 
 ### 1.2 User Stories
 
