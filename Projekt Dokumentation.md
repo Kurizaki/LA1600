@@ -77,14 +77,14 @@ Einige Funktionen, die wir implementieren wollten, wie zum Beispiel ein Copy-But
 | AP-№ | Datum | Zuständig        | geplante Zeit   | tatsächliche Zeit |
 | ---- | ----- | ---------------- | --------------- | ----------------- |
 | 1.A  |       | Jeanneret Winsky | 4 Arbeitspakete |                   |
-| 2.A  |       | Koelewijn        | 4 Arbeitspakete | 5 Arbeitspakete   |
+| 2.A  |16.05.23| Koelewijn        | 4 Arbeitspakete | 5 Arbeitspakete   |
 | 3.A  |       | Angelov          | 4 Arbeitspakete |                   |
 | 4.A  |       | Oesch            | 4 Arbeitspakete |                   |
 | 5.A  |       | Jeanneret Winsky | 4 Arbeitspakete |                   |
-| 6.A  |       | Angelov          | 4 Arbeitspakete |                   |
+| 6.A  |23.05.23| Angelov          | 4 Arbeitspakete |                   |
 | 7.A  |       | Oesch            | 4 Arbeitspakete |                   |
-| 8.A  |       | Koelewijn        | 2 Arbeitspakete | 1 Arbeitspaket    |
-| 9.A  |       | Koelewijn        | 2 Arbeitspakete | 2 Arbeitspakete   |
+| 8.A  |23.05.23| Koelewijn        | 2 Arbeitspakete | 1 Arbeitspaket    |
+| 9.A  |16.05.23| Koelewijn        | 2 Arbeitspakete | 2 Arbeitspakete   |
 
 ## 5 Kontrollieren
 
