@@ -2,12 +2,12 @@
 
 Gruppe Grapefruit Angelov, Koelewijn, Jeanneret Winsky, Oesch
 
-| Datum                        | Version | Zusammenfassung                                               |
-| ---------------------------- | ------- | ------------------------------------------------------------- |
-| 09.05.23                     | 0.0.1   | Heute haben wir Userstorys, Testfälle und Diagramme erstellt. |
-| 16.05.23                     | 0.02    | Heute haben wir Planen, Entscheiden und Realisieren erstellt. |
-| 223.05.2023 | 1.0.0   | Erste Version wurde fertiggestellt                                     |
-| 20.05.2023 | 1.1.0   |Dark mode und No Emoji button wurden hinzugefügt, aber noch nicht implementiert                                         |
+| Datum       | Version | Zusammenfassung                                                                 |
+| ----------- | ------- | ------------------------------------------------------------------------------- |
+| 09.05.23    | 0.0.1   | Heute haben wir Userstorys, Testfälle und Diagramme erstellt.                   |
+| 16.05.23    | 0.02    | Heute haben wir Planen, Entscheiden und Realisieren erstellt.                   |
+| 223.05.2023 | 1.0.0   | Erste Version wurde fertiggestellt                                              |
+| 20.05.2023  | 1.1.0   | Dark mode und No Emoji button wurden hinzugefügt, aber noch nicht implementiert |
 
 ## 1 Informieren
 
@@ -27,20 +27,25 @@ Unser Ziel ist es, eine benutzerfreundliche Website zu entwickeln, die Menschen,
 | 6    | Kann            | Qualität   | Als Benutzer möchte ich die Möglichkeit haben, den Dark Mode auf der Webseite zu aktivieren, um den Benutzer optische Einstellungen zu ermöglichen.                                                 |
 | 7    | Kann            | Qualität   | Als Benutzer möchte ich eine leicht verständliche und ansprechende Benutzeroberfläche erleben, die es mir ermöglicht, schnell auf die gesuchten Informationen zuzugreifen.                          |
 | 8    | Kann            | Qualität   | Als Benutzer möchte ich die Möglichkeit haben, Code-Snippets zu öffnen, um die Erklärungen besser zu verstehen.                                                                                     |
+| 9    | Muss            | Qualität   | Als benutzer möchte ich einen No-Emoji button um eine direktere übersicht zu haben                                                                                                                  |
+| 10   | Kann            | Qualität   | Als Benutzer möchte ich zwischen den Sprachen Deutsch und Englisch wechseln können                                                                                                                  |
 
 ### 1.3 Testfälle
 
-| TC-№ | Ausgangslage                                         | Eingabe                                         | Erwartete Ausgabe                                                                                    |
-| ---- | ---------------------------------------------------- | ----------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
-| 1.1  | Der Browser ist geöffnet.                            | Der Link wird eingegeben.                       | Die Webseite wird angezeigt.                                                                         |
-| 2.1  | Die Webseite ist geladen                             | -                                               | Verschiedene Kategorien werden angezeigt.                                                            |
-| 2.2  | Die Startseite ist geladen                           | Kategorie "Häufige C# Probleme" wird angeklickt | Man wird weitergeleitet auf die Seite mit "Häufige C# Probleme".                                      |
-| 3.1  | Die Seite "Häufige C# Probleme" ist geladen          | -                                               | Detaillierte Informationen zu den Programmierfehlern aus dieser Kategorie werden angezeigt.          |
-| 4.1  | Die Seite "Häufige Lernbericht Probleme" ist geladen | -                                               | Tipps und Ratschläge zur Fehlervermeidung sind gut strukturiert und leicht verständlich dargestellt. |
-| 5.1  | Die Seite "Häufige Lernbericht Probleme" ist geladen | Kategorie "Häufige C# Probleme" wird angeklickt | Man wird weitergeleitet auf die Seite mit "Häufige C# Probleme".                                      |
-| 6.1  | Unterseite oder Startseite ist geladen               | Im Footer wird Darkmode angeklickt              | Die Farben der Seite werden auf Dunkel eingestellt.                                                  |
-| 7.1  | Startseite ist geladen                               | -                                               | Es gibt eine Benutzerfreundlichkeit und visuelle Attraktivität.                                      |
-| 8.1  | Die Seite "Häufige C# Probleme" ist geladen          | Der Button "Code" wird angeklickt               | Eine Fläche wird ausgefahren mit einem Beispielscode.                                                 |
+| TC-№ | Ausgangslage                                                       | Eingabe                                         | Erwartete Ausgabe                                                                                    |
+| ---- | ------------------------------------------------------------------ | ----------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| 1.1  | Der Browser ist geöffnet.                                          | Der Link wird eingegeben.                       | Die Webseite wird angezeigt.                                                                         |
+| 2.1  | Die Webseite ist geladen                                           | -                                               | Verschiedene Kategorien werden angezeigt.                                                            |
+| 2.2  | Die Startseite ist geladen                                         | Kategorie "Häufige C# Probleme" wird angeklickt | Man wird weitergeleitet auf die Seite mit "Häufige C# Probleme".                                     |
+| 3.1  | Die Seite "Häufige C# Probleme" ist geladen                        | -                                               | Detaillierte Informationen zu den Programmierfehlern aus dieser Kategorie werden angezeigt.          |
+| 4.1  | Die Seite "Häufige Lernbericht Probleme" ist geladen               | -                                               | Tipps und Ratschläge zur Fehlervermeidung sind gut strukturiert und leicht verständlich dargestellt. |
+| 5.1  | Die Seite "Häufige Lernbericht Probleme" ist geladen               | Kategorie "Häufige C# Probleme" wird angeklickt | Man wird weitergeleitet auf die Seite mit "Häufige C# Probleme".                                     |
+| 6.1  | Unterseite oder Startseite ist geladen                             | Im Footer wird Darkmode angeklickt              | Die Farben der Seite werden auf Dunkel eingestellt.                                                  |
+| 7.1  | Startseite ist geladen                                             | -                                               | Es gibt eine Benutzerfreundlichkeit und visuelle Attraktivität.                                      |
+| 8.1  | Die Seite "Häufige C# Probleme" ist geladen                        | Der Button "Code" wird angeklickt               | Eine Fläche wird ausgefahren mit einem Beispielscode.                                                |
+| 9.1  | Die Startseite ist geladen                                         | Button "No-Emoji" wird angeklickt               | Die Emojis verschwinden im text                                                                      |
+| 10.1 | Die Startseite ist geladen                                         | Button "Sprache" wird angeklickt                | Die optionen auf einglisch oder deutsch zu wechseln wird angezeigt                                   |
+| 10.2 | Die optionen auf einglisch oder deutsch zu wechseln wird angezeigt | Button "Englisch" wird angeklickt               | Man wird weitergeleitet auf eine englische Version.                                                  |
 
 ### 1.4 Diagramme
 
@@ -50,18 +55,20 @@ Unser Ziel ist es, eine benutzerfreundliche Website zu entwickeln, die Menschen,
 
 ## 2 Planen
 
-| AP-№ | Frist | Zuständig                 | Beschreibung                                                    | Geplante Zeit    |
-| ---- | ----- | ------------------------- | --------------------------------------------------------------- | ---------------- |
-| 1.A  |       | Koelewijn                 | GitHub Pages Webseite erstellen                                 | ⅓ Arbeitspakete  |
-| 2.A  |       | Koelewijn                 | Erstellung der Startseite                                       | 4 Arbeitspakete  |
-| 2.A  |       | Erstellung der Startseite | Implementierung des Dark Mode                                   | 4 Arbeitspakete  |
-| 3.A  |       | Angelov                   | Verschönerung der Webseite mit Animationen                      | 4 Arbeitspakete  |
-| 4.A  |       | Oesch                     | Erstellung der Kategorie Häufige C# Probleme                    | 4 Arbeitspakete  |
-| 5.A  |       | Jeanneret Winsky          | Erstellung der Kategorie Häufige WinForms Probleme              | 4 Arbeitspakete  |
-| 6.A  |       | Angelov                   | Erstellung der Kategorie Häufige Robocode Probleme              | 4 Arbeitspakete  |
-| 7.A  |       | Oesch                     | Erstellung der Kategorie Häufige Projekt Dokumentation Probleme | 4 Arbeitspakete  |
-| 8.A  |       | Koelewijn                 | Erstellung der Kategorie Häufige Lernbericht Probleme           | 1⅔ Arbeitspakete |
-| 9.A  |       | Koelewijn                 | Erstellung der Kategorie Über Uns                               | 2 Arbeitspakete  |
+| AP-№ | Frist | Zuständig        | Beschreibung                                                    | Geplante Zeit    |
+| ---- | ----- | ---------------- | --------------------------------------------------------------- | ---------------- |
+| 1.A  |       | Koelewijn        | GitHub Pages Webseite erstellen                                 | ⅓ Arbeitspakete  |
+| 2.A  |       | Koelewijn        | Erstellung der Startseite mit Vorlage der anderen Unterseiten   | 2 Arbeitspakete  |
+| 2.A  |       | Jeanneret Winsky | Implementierung des Dark Mode                                   | 4 Arbeitspakete  |
+| 3.A  |       | Angelov          | Verschönerung der Webseite mit Animationen                      | 4 Arbeitspakete  |
+| 4.A  |       | Oesch            | Erstellung der Kategorie Häufige C# Probleme                    | 4 Arbeitspakete  |
+| 5.A  |       | Jeanneret Winsky | Erstellung der Kategorie Häufige WinForms Probleme              | 4 Arbeitspakete  |
+| 6.A  |       | Angelov          | Erstellung der Kategorie Häufige Robocode Probleme              | 4 Arbeitspakete  |
+| 7.A  |       | Oesch            | Erstellung der Kategorie Häufige Projekt Dokumentation Probleme | 4 Arbeitspakete  |
+| 8.A  |       | Koelewijn        | Erstellung der Kategorie Häufige Lernbericht Probleme           | 1⅔ Arbeitspakete |
+| 9.A  |       | Koelewijn        | Erstellung der Kategorie Über Uns                               | 2 Arbeitspakete  |
+| 10.A |       | Koelewijn        | Sprache ändern option                                           | 2 Arbeitspakete  |
+| 11.A |       | Koelewijn        | No Emoji button                                                 | 2 Arbeitspakete  |
 
 
 
@@ -75,17 +82,17 @@ Einige Funktionen, die wir implementieren wollten, wie zum Beispiel ein Copy-But
 
 ## 4 Realisieren
 
-| AP-№ | Datum | Zuständig        | geplante Zeit   | tatsächliche Zeit |
-| ---- | ----- | ---------------- | --------------- | ----------------- |
-| 1.A  |30.05.2023       | Koelewijn | 4 Arbeitspakete | 2 Arbeitspakete                   |
-| 2.A  |16.05.23| Koelewijn        | 4 Arbeitspakete | 5 Arbeitspakete   |
-| 3.A  |       | Angelov          | 4 Arbeitspakete |                   |
-| 4.A  |       | Oesch            | 4 Arbeitspakete |                   |
-| 5.A  |       | Jeanneret Winsky | 4 Arbeitspakete |                   |
-| 6.A  |23.05.23| Angelov          | 4 Arbeitspakete |4 Arbeitspakete|
-| 7.A  |       | Oesch            | 4 Arbeitspakete |                   |
-| 8.A  |23.05.23| Koelewijn        | 2 Arbeitspakete | 1 Arbeitspaket    |
-| 9.A  |16.05.23| Koelewijn        | 2 Arbeitspakete | 2 Arbeitspakete   |
+| AP-№ | Datum      | Zuständig                                   | geplante Zeit   | tatsächliche Zeit |
+| ---- | ---------- | ------------------------------------------- | --------------- | ----------------- |
+| 1.A  | 30.05.2023 | Jeanneret Winsky (Koelewijn hat übernommen) | 4 Arbeitspakete | 2 Arbeitspakete   |
+| 2.A  | 16.05.23   | Koelewijn                                   | 4 Arbeitspakete | 5 Arbeitspakete   |
+| 3.A  |            | Angelov                                     | 4 Arbeitspakete |                   |
+| 4.A  |            | Oesch                                       | 4 Arbeitspakete |                   |
+| 5.A  |            | Jeanneret Winsky                            | 4 Arbeitspakete |                   |
+| 6.A  | 23.05.23   | Angelov                                     | 4 Arbeitspakete | 4 Arbeitspakete   |
+| 7.A  |            | Oesch                                       | 4 Arbeitspakete |                   |
+| 8.A  | 23.05.23   | Koelewijn                                   | 2 Arbeitspakete | 1 Arbeitspaket    |
+| 9.A  | 16.05.23   | Koelewijn                                   | 2 Arbeitspakete | 2 Arbeitspakete   |
 
 ## 5 Kontrollieren
 
@@ -97,3 +104,5 @@ Einige Funktionen, die wir implementieren wollten, wie zum Beispiel ein Copy-But
 ## 6 Auswerten
 
 ✍️ Fügen Sie hier eine Verknüpfung zu Ihrem Lern-Bericht ein.
+
+
