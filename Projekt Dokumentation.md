@@ -6,7 +6,8 @@ Gruppe Grapefruit Angelov, Koelewijn, Jeanneret Winsky, Oesch
 | ---------------------------- | ------- | ------------------------------------------------------------- |
 | 09.05.23                     | 0.0.1   | Heute haben wir Userstorys, Testfälle und Diagramme erstellt. |
 | 16.05.23                     | 0.02    | Heute haben wir Planen, Entscheiden und Realisieren erstellt. |
-|  | 1.0.0   |                                                               |
+| 223.05.2023 | 1.0.0   | Erste Version wurde fertiggestellt                                     |
+| 20.05.2023 | 1.1.0   |Dark mode und No Emoji button wurden hinzugefügt, aber noch nicht implementiert                                         |
 
 ## 1 Informieren
 
