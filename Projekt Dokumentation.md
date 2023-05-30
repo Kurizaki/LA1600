@@ -77,7 +77,7 @@ Einige Funktionen, die wir implementieren wollten, wie zum Beispiel ein Copy-But
 
 | AP-№ | Datum | Zuständig        | geplante Zeit   | tatsächliche Zeit |
 | ---- | ----- | ---------------- | --------------- | ----------------- |
-| 1.A  |       | Jeanneret Winsky | 4 Arbeitspakete |                   |
+| 1.A  |30.05.2023       | Koelewijn | 4 Arbeitspakete | 2 Arbeitspakete                   |
 | 2.A  |16.05.23| Koelewijn        | 4 Arbeitspakete | 5 Arbeitspakete   |
 | 3.A  |       | Angelov          | 4 Arbeitspakete |                   |
 | 4.A  |       | Oesch            | 4 Arbeitspakete |                   |
