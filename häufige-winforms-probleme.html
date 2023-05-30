@@ -37,6 +37,35 @@
                     Probleme</strong></a>
             <a href="über-uns.html" class="category-link"><strong>Über Uns</strong></a>
         </section>
+        <section>
+            <h1>Häufige Probleme bei Windows Forms-Anwendungen</h1>
+  
+  <h2>1. Layoutprobleme</h2>
+  <p>
+    Windows Forms verwendet standardmäßig das Absolute Layout. <br> kann zu Problemen führen, wenn die Anwendung auf verschiedenen Bildschirmauflösungen oder -größen ausgeführt wird. 
+    Verwenden Sie Layout-Container wie TableLayoutPanel oder FlowLayoutPanel,<br> um Ihre Steuerelemente besser zu organisieren und sich automatisch an unterschiedliche Bildschirmgrößen anzupassen.
+  </p>
+  
+  <h2>2. Performanzprobleme</h2>
+  <p>
+    Windows Forms-Anwendungen können bei großen Datenmengen oder komplexen Benutzeroberflächen langsam reagieren. <br> Verwenden Sie das BackgroundWorker-Steuerelement, um aufwändige Aufgaben im Hintergrund auszuführen und die Benutzeroberfläche währenddessen reaktionsfähig zu halten.<br> Optimieren Sie auch den Code, um übermäßige Berechnungen oder Datenbankzugriffe zu vermeiden.
+  </p>
+  
+  <h2>3. Datenvalidierung</h2>
+  <p>
+    Benutzereingaben sollten immer auf Gültigkeit überprüft werden, um unerwartete Fehler oder Dateninkonsistenzen zu vermeiden. <br> Verwenden Sie Validierungsereignisse und Validierungsregeln, um sicherzustellen, dass die eingegebenen Daten den Anforderungen entsprechen. <br> Nutzen Sie auch Fehlermeldungen oder visuelle Rückmeldungen, um den Benutzer über fehlerhafte Eingaben zu informieren.
+  </p>
+  
+  <h2>4. Thread-Sicherheit</h2>
+  <p>
+    Windows Forms ist standardmäßig nicht thread-sicher. Wenn Sie auf Steuerelemente von einem anderen Thread aus zugreifen müssen (z. B. von einem Hintergrundthread),<br> verwenden Sie die Methode Invoke oder BeginInvoke, um den Zugriff auf die UI-Elemente auf dem UI-Thread durchzuführen. <br>Andernfalls kann es zu unvorhersehbarem Verhalten oder Abstürzen kommen.
+  </p>
+  
+  <h2>5. Ressourcenverwaltung</h2>
+  <p>
+    Vergessen Sie nicht, Ressourcen wie Dateien, Verbindungen oder Handles ordnungsgemäß freizugeben, wenn sie nicht mehr benötigt werden. Verwenden Sie Dispose-Muster und Finalizer, um sicherzustellen,<br> dass die Ressourcen freigegeben werden, insbesondere bei benutzerdefinierten Klassen, die IDisposable implementieren.
+  </p>
+        </section>
     </main>
     <footer>
         <div class="footer-container">
