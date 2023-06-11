@@ -214,6 +214,14 @@ header {
     margin-bottom: 30px;
 }
 
+.häufige-Winforms-probleme {
+    background-color: var(--background-color);
+    margin: 0 300px;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 0%;
+}
+
 /* Footer */
 
 footer {
