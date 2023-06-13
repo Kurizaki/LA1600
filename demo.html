@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Startseite</title>
+    <style>
+        :root {
+            --background-color: #f0f8ff;
+            --background-image-color: #1e1e1e;
+            --style-blue: #0077c2;
+            --marked-blue: #005ea8;
+            --text-color: black;
+            --text-color2: white;
+        }
+        
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            display: flex;
+            flex-direction: column;
+            background-color: var(--background-color);
+        }
+        
+        main {
+            flex: 1;
+            background-color: var(--background-color);
+        }
+        
+        .text {
+            background-color: var(--background-color);
+            margin: 0 300px;
+            font-size: 18px;
+            line-height: 1.5;
+            margin-bottom: 0;
+            color: var(--text-color);
+        }
+        
+        footer {
+            background-color: var(--style-blue);
+            color: #fff;
+            padding: 40px 0;
+            margin-top: auto;
+        }
+        
+        .footer-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-left: 80px;
+            margin-right: 80px;
+            align-items: center;
+            text-align: center;
+        }
+        
+        .footer-list {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .footer-list li {
+            margin-bottom: 10px;
+        }
+        
+        .footer-list a {
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        .footer-bottom {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 20px;
+        }
+        
+        .fixed-dark-mode-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            background-color: var(--style-blue);
+            color: #fff;
+            padding: 10px;
+            border-radius: 50%;
+        }
+        
+        .fixed-dark-mode-button:hover {
+            background-color: var(--marked-blue);
+        }
+        
+        .fixed-dark-mode-button i {
+            margin-right: 5px;
+        }
+        
+        #dark-mode-button {
+            display: none;
+            visibility: hidden;
+        }
+        
+        #dark-mode-button:checked ~ * {
+            --background-color: rgb(51, 51, 51);
+            --background-image-color: #1e1e1e;
+            --style-blue: #005ea8;
+            --marked-blue: #0077c2;
+            --text-color: white;
+        }
+    </style>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<input type="checkbox" id="dark-mode-button">
+<body>
+    <main>
+        <section class="text">
+            <h1>Lorem ipsum:</h1>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,<br> sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, <br> no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, <br> sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et<br> justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <ul class="footer-list">
+                <li>
+                    <label class="fixed-dark-mode-button" for="dark-mode-button">Theme</label>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p class="footer-text">&copy; 2023 Beispiel GmbH. Alle Rechte vorbehalten.</p>
+        </div>
+    </footer>
+</body>
+</html>
