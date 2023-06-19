@@ -53,17 +53,17 @@ Unser Ziel ist es, eine benutzerfreundliche Website zu entwickeln, die Menschen,
 
 | AP-№ | Frist | Zuständig        | Beschreibung                                                    | Geplante Zeit    |
 | ---- | ----- | ---------------- | --------------------------------------------------------------- | ---------------- |
-| 1.A  |       | Koelewijn        | GitHub Pages Webseite erstellen                                 | ⅓ Arbeitspakete  |
-| 2.A  |       | Koelewijn        | Erstellung der Startseite mit Vorlage der anderen Unterseiten   | 2 Arbeitspakete  |
-| 2.A  |       | Jeanneret Winsky | Implementierung des Dark Mode                                   | 4 Arbeitspakete  |
-| 3.A  |       | Angelov          | Verschönerung der Webseite mit Animationen                      | 4 Arbeitspakete  |
-| 4.A  |       | Oesch            | Erstellung der Kategorie Häufige C# Probleme                    | 4 Arbeitspakete  |
-| 5.A  |       | Jeanneret Winsky | Erstellung der Kategorie Häufige WinForms Probleme              | 4 Arbeitspakete  |
-| 6.A  |       | Angelov          | Erstellung der Kategorie Häufige Robocode Probleme              | 4 Arbeitspakete  |
-| 7.A  |       | Oesch            | Erstellung der Kategorie Häufige Projekt Dokumentation Probleme | 4 Arbeitspakete  |
-| 8.A  |       | Koelewijn        | Erstellung der Kategorie Häufige Lernbericht Probleme           | 1⅔ Arbeitspakete |
-| 9.A  |       | Koelewijn        | Erstellung der Kategorie Über Uns                               | 2 Arbeitspakete  |
-| 11.A |       | Koelewijn        | No Emoji button                                                 | 2 Arbeitspakete  |
+| 1.A  | 19.06.2023      | Koelewijn        | GitHub Pages Webseite erstellen                                 | ⅓ Arbeitspakete  |
+| 2.A  |19.06.2023        | Koelewijn        | Erstellung der Startseite mit Vorlage der anderen Unterseiten   | 2 Arbeitspakete  |
+| 2.A  |   19.06.2023     | Jeanneret Winsky | Implementierung des Dark Mode                                   | 4 Arbeitspakete  |
+| 3.A  |   19.06.2023 19.06.2023 19.06.2023     | Angelov          | Verschönerung der Webseite mit Animationen                      | 4 Arbeitspakete  |
+| 4.A  |   19.06.2023 19.06.2023     | Oesch            | Erstellung der Kategorie Häufige C# Probleme                    | 4 Arbeitspakete  |
+| 5.A  |  19.06.2023      | Jeanneret Winsky | Erstellung der Kategorie Häufige WinForms Probleme              | 4 Arbeitspakete  |
+| 6.A  |   19.06.2023     | Angelov          | Erstellung der Kategorie Häufige Robocode Probleme              | 4 Arbeitspakete  |
+| 7.A  |   19.06.2023     | Oesch            | Erstellung der Kategorie Häufige Projekt Dokumentation Probleme | 4 Arbeitspakete  |
+| 8.A  |   19.06.2023     | Koelewijn        | Erstellung der Kategorie Häufige Lernbericht Probleme           | 1⅔ Arbeitspakete |
+| 9.A  |   19.06.2023     | Koelewijn        | Erstellung der Kategorie Über Uns                               | 2 Arbeitspakete  |
+| 11.A |    19.06.2023    | Koelewijn        | No Emoji button                                                 | 2 Arbeitspakete  |
 
 
 
