@@ -28,7 +28,6 @@ Unser Ziel ist es, eine benutzerfreundliche Website zu entwickeln, die Menschen,
 | 7    | Kann            | Qualität   | Als Benutzer möchte ich eine leicht verständliche und ansprechende Benutzeroberfläche erleben, die es mir ermöglicht, schnell auf die gesuchten Informationen zuzugreifen.                          |
 | 8    | Kann            | Qualität   | Als Benutzer möchte ich die Möglichkeit haben, Code-Snippets zu öffnen, um die Erklärungen besser zu verstehen.                                                                                     |
 | 9    | Muss            | Qualität   | Als benutzer möchte ich einen No-Emoji button um eine direktere übersicht zu haben                                                                                                                  |
-| 10   | Kann            | Qualität   | Als Benutzer möchte ich zwischen den Sprachen Deutsch und Englisch wechseln können                                                                                                                  |
 
 ### 1.3 Testfälle
 
@@ -44,9 +43,6 @@ Unser Ziel ist es, eine benutzerfreundliche Website zu entwickeln, die Menschen,
 | 7.1  | Startseite ist geladen                                             | -                                               | Es gibt eine Benutzerfreundlichkeit und visuelle Attraktivität.                                      |
 | 8.1  | Die Seite "Häufige C# Probleme" ist geladen                        | Der Button "Code" wird angeklickt               | Eine Fläche wird ausgefahren mit einem Beispielscode.                                                |
 | 9.1  | Die Startseite ist geladen                                         | Button "No-Emoji" wird angeklickt               | Die Emojis verschwinden im text                                                                      |
-| 10.1 | Die Startseite ist geladen                                         | Button "Sprache" wird angeklickt                | Die optionen auf einglisch oder deutsch zu wechseln wird angezeigt                                   |
-| 10.2 | Die optionen auf einglisch oder deutsch zu wechseln wird angezeigt | Button "Englisch" wird angeklickt               | Man wird weitergeleitet auf eine englische Version.                                                  |
-
 ### 1.4 Diagramme
 
 ![image](https://user-images.githubusercontent.com/110892742/237027128-0436ffc0-cce7-4b0d-8912-13b972795c90.png)
@@ -67,7 +63,6 @@ Unser Ziel ist es, eine benutzerfreundliche Website zu entwickeln, die Menschen,
 | 7.A  |       | Oesch            | Erstellung der Kategorie Häufige Projekt Dokumentation Probleme | 4 Arbeitspakete  |
 | 8.A  |       | Koelewijn        | Erstellung der Kategorie Häufige Lernbericht Probleme           | 1⅔ Arbeitspakete |
 | 9.A  |       | Koelewijn        | Erstellung der Kategorie Über Uns                               | 2 Arbeitspakete  |
-| 10.A |       | Koelewijn        | Sprache ändern option                                           | 2 Arbeitspakete  |
 | 11.A |       | Koelewijn        | No Emoji button                                                 | 2 Arbeitspakete  |
 
 
@@ -96,10 +91,17 @@ Einige Funktionen, die wir implementieren wollten, wie zum Beispiel ein Copy-But
 
 ## 5 Kontrollieren
 
-| TC-№ | Datum | Resultat | Tester |
-| ---- | ----- | -------- | ------ |
-| 1.1  |       |          |        |
-| ...  |       |          |        |
+| TC-№ | Datum      | Resultat     | Tester                                      |
+| ---- | ---------- | ------------ | ------------------------------------------- |
+| 1.1  | 19.06.2023 | Funktioniert | Keanu Koelewijn                             |
+| 2.1  | 19.06.2023 | Funktioniert | Keanu Koelewijn                             |
+| 3.1  | 19.06.2023 | Funktioniert | Keanu Koelewijn                             |
+| 4.1  | 19.06.2023 | Funktioniert | Keanu Koelewijn                             |
+| 5.1  | 19.06.2023 | Funktioniert | Keanu Koelewijn                             |
+| 6.1  | 19.06.2023 | Funktioniert | Keanu Koelewijn                             |
+| 7.1  | 19.06.2023 | Funktioniert | Keanu Koelewijn                             |
+| 8.1  | 19.06.2023 | Funktioniert | Keanu Koelewijn                             |
+| 9.1  | 19.06.2023 | Funktioniert | Keanu Koelewijn |
 
 ## 6 Auswerten
 
