@@ -56,8 +56,8 @@ Unser Ziel ist es, eine benutzerfreundliche Website zu entwickeln, die Menschen,
 | 1.A  | 19.06.2023      | Koelewijn        | GitHub Pages Webseite erstellen                                 | ⅓ Arbeitspakete  |
 | 2.A  |19.06.2023        | Koelewijn        | Erstellung der Startseite mit Vorlage der anderen Unterseiten   | 2 Arbeitspakete  |
 | 2.A  |   19.06.2023     | Jeanneret Winsky | Implementierung des Dark Mode                                   | 4 Arbeitspakete  |
-| 3.A  |   19.06.2023 19.06.2023 19.06.2023     | Angelov          | Verschönerung der Webseite mit Animationen                      | 4 Arbeitspakete  |
-| 4.A  |   19.06.2023 19.06.2023     | Oesch            | Erstellung der Kategorie Häufige C# Probleme                    | 4 Arbeitspakete  |
+| 3.A  |   19.06.2023    | Angelov          | Verschönerung der Webseite mit Animationen                      | 4 Arbeitspakete  |
+| 4.A  |   19.06.2023     | Oesch            | Erstellung der Kategorie Häufige C# Probleme                    | 4 Arbeitspakete  |
 | 5.A  |  19.06.2023      | Jeanneret Winsky | Erstellung der Kategorie Häufige WinForms Probleme              | 4 Arbeitspakete  |
 | 6.A  |   19.06.2023     | Angelov          | Erstellung der Kategorie Häufige Robocode Probleme              | 4 Arbeitspakete  |
 | 7.A  |   19.06.2023     | Oesch            | Erstellung der Kategorie Häufige Projekt Dokumentation Probleme | 4 Arbeitspakete  |
