@@ -3,8 +3,7 @@
 Grapefruit: Angelov Angel und Keaunu Koelewijn
 
 ## Einleitung
-
-Wir haben eine Website erstellt, die anderen Schülern, die an der IMS sind und Informatik lernen möchten, bei der Lösung ihrer Probleme helfen kann. Wir bieten Hilfe für Probleme in C#, Robocode, WinForms, Projektdokumentation und Lernbericht an.
+Wir haben eine Website erstellt, die anderen bei der Lösung ihrer Probleme in den Bereichen C#, Robocode, WinForms, Projektdokumentation und Lernbericht in der Informatik helfen kann.
 
 ## Was haben wir gelernt?
 
@@ -12,13 +11,13 @@ In unserem Projekt haben wir gelernt, wie man mit HTML und CSS eine Codebox erst
 
 ## Beschreibung
 
-Der HTML Teil des COdes definiert das Verhalten der Schaltfläche und des Bereichs dür den "Code-Snippet"" und die "Code Erklärung". Die Schaltfläche wird durch eine Checkbox erstellt.
+Der HTML teil des Codes definiert das Verhalten der Schaltfläche und des Bereichs für den "Code-Snippet" und die "Code Erklärung". Die Schaltfläche wird durch eine Checkbox erstellt.
 
 ```html
 <input type="checkbox" id="fixed-button-checkbox">
 ```
 
-Wenn das Kontrollkästchen aktiviert ist (also angeklickt wurde), wird der darunter liegende Bereich sichtbar. Die Schaltfäche selber wird durch das Label Element, das mit der checkbox verbunden (durch das "for" Attribut) ist genutzt. Die Klasse "fixed-butten" wurde zum Label deklariert um im CSS darauf zugreifen zu können.
+Wenn das Kontrollkästchen aktiviert ist (also angeklickt wurde), wird der darunter liegende Bereich sichtbar. Die Schaltfläche selber wird durch das Label Element, das mit der Checkbox verbunden (durch das "for" Attribut) ist, genutzt. Die Klasse "fixed-button" wurde zum Label deklariert, um im CSS darauf zugreifen zu können.
 
 ```html
 <label class="fixed-button" for="fixed-button-checkbox">Code</label>
@@ -28,7 +27,7 @@ Wenn das Kontrollkästchen aktiviert ist (also angeklickt wurde), wird der darun
 
 Der Bereich für den Code und die Code-Erklärung werden in einem Container namens "slide-in" definiert. Im CSS wird dieser Container standardmässig ausserhalb des sichtbaren Bereichs platziert (rechts ausserhalb des Bildschirms). Wenn die Checkbox aktiviert wird, indem man auf das Label "Code" klickt, wird der Container mit einer seitlichen Animation (von rechts nach links) eingeblendet. Der Code selbst wird mit dem Code-Snippet-Element angezeigt. Darunter befindet sich ein Text, der den Code erklärt.
 
-Um sich nicht zu verwirren kann man sich merken "class" Klassen sind  die selber definiert werden um später im CSS die optische darstellung zu optimieren.
+Um sich nicht zu verwirren, kann man sich merken "class" Klassen sind, die selber definiert werden, um später im CSS die optische Darstellung zu optimieren.
 
 * ```<div>``` ist ein Container mit dem man alle Elemente darin ansprechen kann.
 
@@ -103,7 +102,7 @@ Am Ende sieht diese Funktion auf unserer Webseite dann wie folgt aus:
 Die Idee für die Webseite motivierte einige Mitglieder, schnell und effizient zu arbeiten, da das Ziel darin bestand, eine ästhetisch ansprechende Webseite zu erstellen. Dies beschleunigte den Arbeitsprozess erheblich.
 
 **Was lief nicht gut** :
-Während des Projekts haben zwei unserer Mitglieder wenig Einsatz gezeigt, obwohl sie daran erinnert wurden, ihren Code rechtzeitig fertigzustellen. Leider kam ihre Arbeit Wochen zu spät, wodurch einige Aufgaben doppelt erledigt wurden, da zu diesem Zeitpunkt ein zuverlässigeres Teammitglied die Aufgabe übernommen hatte. Ab einem bestimmten Zeitpunkt gab es fast keine Kommunikation mehr oder einige Mitglieder meldeten sich nicht, was dazu führte, dass wir die Webseite leider nicht rechtzeitig fertigstellen konnten.
+Während des Projekts haben zwei unserer Mitglieder wenig Einsatz gezeigt, obwohl sie daran erinnert wurden, ihren Code rechtzeitig fertigzustellen. Leider kam ihre Arbeit Wochen zu spät, wodurch einige Aufgaben doppelt erledigt wurden, da zu diesem Zeitpunkt ein zuverlässigeres Teammitglied die Aufgabe übernommen hatte. Ab einem bestimmten Zeitpunkt gab es fast keine Kommunikation mehr oder einige Mitglieder meldeten sich nicht, was dazu führte, dass wir die Webseite bedauerlicherweise nicht rechtzeitig fertigstellen konnten.
 
 **VBV** :
 Um dieses Problem in Zukunft zu vermeiden, wäre es ratsam, dass sich das Team besser abspricht. Dazu gehört beispielsweise, sich im Voraus abzumelden, Termine abzusagen oder um Hilfe zu bitten. Wenn einem das Projekt nicht gefällt, sollte man ehrlich seine Meinung äussern und mit den Teammitgliedern besprechen, woran man arbeiten kann.
