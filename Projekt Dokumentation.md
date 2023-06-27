@@ -104,7 +104,6 @@ Einige Funktionen, die wir implementieren wollten, wie zum Beispiel ein Copy-But
 | 9.1  | 19.06.2023 | Funktioniert | Keanu Koelewijn |
 
 ## 6 Auswerten
-
-✍️ Fügen Sie hier eine Verknüpfung zu Ihrem Lern-Bericht ein.
+ [Lernbericht](https://github.com/Kurizaki/LA1600/blob/main/Lernbericht.md)
 
 
